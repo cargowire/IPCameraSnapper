@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPCameraSnapper.Console", "IPCameraSnapper.Console\IPCameraSnapper.Console.csproj", "{D30E6EB8-E189-46B8-B38A-B11731F715BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPCameraSnapper", "IPCameraSnapper\IPCameraSnapper.csproj", "{86D728A7-E9BC-4B29-979A-403096D33F87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D30E6EB8-E189-46B8-B38A-B11731F715BE}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{D30E6EB8-E189-46B8-B38A-B11731F715BE}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{D30E6EB8-E189-46B8-B38A-B11731F715BE}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{D30E6EB8-E189-46B8-B38A-B11731F715BE}.Debug|x86.ActiveCfg = Debug|x86
+		{D30E6EB8-E189-46B8-B38A-B11731F715BE}.Debug|x86.Build.0 = Debug|x86
+		{D30E6EB8-E189-46B8-B38A-B11731F715BE}.Release|Any CPU.ActiveCfg = Release|x86
+		{D30E6EB8-E189-46B8-B38A-B11731F715BE}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{D30E6EB8-E189-46B8-B38A-B11731F715BE}.Release|Mixed Platforms.Build.0 = Release|x86
+		{D30E6EB8-E189-46B8-B38A-B11731F715BE}.Release|x86.ActiveCfg = Release|x86
+		{D30E6EB8-E189-46B8-B38A-B11731F715BE}.Release|x86.Build.0 = Release|x86
+		{86D728A7-E9BC-4B29-979A-403096D33F87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86D728A7-E9BC-4B29-979A-403096D33F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86D728A7-E9BC-4B29-979A-403096D33F87}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{86D728A7-E9BC-4B29-979A-403096D33F87}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{86D728A7-E9BC-4B29-979A-403096D33F87}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{86D728A7-E9BC-4B29-979A-403096D33F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86D728A7-E9BC-4B29-979A-403096D33F87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86D728A7-E9BC-4B29-979A-403096D33F87}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{86D728A7-E9BC-4B29-979A-403096D33F87}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{86D728A7-E9BC-4B29-979A-403096D33F87}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

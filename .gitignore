@@ -1,0 +1,10 @@
+*.suo
+*.user
+*.vssscc
+*.vspscc
+MSSCCPRJ.SCC
+bin
+obj
+caches
+packages
+*.Tests.xml
