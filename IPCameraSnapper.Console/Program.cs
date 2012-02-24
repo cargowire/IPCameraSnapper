@@ -10,7 +10,7 @@ namespace IPCameraSnapper.Console
 	class Program
 	{
 		private static Camera camera;
-		private static FileImageSaver saver;
+		private static IImageSaver saver;
 		private static ImageRetriever retriever;
 
 		static void Main(string[] args)
@@ -20,6 +20,10 @@ namespace IPCameraSnapper.Console
 			string cameraUsername = ConfigurationManager.AppSettings["CameraUsername"];
 			string cameraPassword = ConfigurationManager.AppSettings["CameraPassword"];
 			string snapshotFolder = ConfigurationManager.AppSettings["SnapshotFolder"];
+			// FTP Option
+			string ftpAddress = ConfigurationManager.AppSettings["FTPAddress"];
+			string ftpUsername = ConfigurationManager.AppSettings["FTPUsername"];
+			string ftpPassword = ConfigurationManager.AppSettings["FTPPassword"];
 
 			// Setup
 			camera = new Camera(new Uri(cameraAddress));
@@ -27,6 +31,7 @@ namespace IPCameraSnapper.Console
 				camera.Credentials = new NetworkCredential(cameraUsername, cameraPassword);
 
 			saver = new FileImageSaver(snapshotFolder);
+			//saver = new FTPImageSaver(new Uri(ftpAddress), ftpUsername, ftpPassword);
 			retriever = new ImageRetriever();
 
 			int seconds;
